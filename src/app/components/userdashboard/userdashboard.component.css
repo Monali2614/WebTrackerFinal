@@ -1,0 +1,127 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #4c5a6a;
+  margin: 0;
+  padding: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  align-self:center ;
+}
+.container {
+  max-width: 350px; /* Adjust this as per your design */
+  margin: 0 auto; /* Center align the container */
+  padding: 20px; /* Optional: Add padding around the container */
+}
+
+.dashboard-container {
+  background: #86729d; /* Optional: Add background color */
+  padding: 20px; /* Optional: Add padding inside the container */
+}
+
+
+
+.welcome-message {
+  font-size: 1.4em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.sidebar {
+  width: 100%;
+  max-width: 300px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  border-right: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+.sidebar h3 {
+  color: #0056b3;
+}
+
+.sidebar form {
+  margin-top: 15px;
+}
+
+.sidebar label {
+  display: block;
+  margin: 10px 0 5px;
+  color: #333;
+}
+
+.sidebar input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.sidebar input[type="submit"] {
+  background-color: #0056b3;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.sidebar input[type="submit"]:hover {
+  background-color: #004494;
+}
+
+.form-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logout-button {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  
+}
+
+.logout-button:hover {
+  background-color: darkred;
+}
+
+.content {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.dashboard-section {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+
+}
+
+.dashboard-section h3 {
+  margin-top: 0;
+  color: #0056b3;
+}
+
+.dashboard-section p {
+  color: #666;
+}

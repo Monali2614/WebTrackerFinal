@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="dashboard-container">
+    <p class="welcome-message"><b>Hi! Welcome to User Dashboard</b></p>
+
+  <div class="sidebar">
+    <!-- <h3>User Management</h3> -->
+    <form id="user-form" (ngSubmit)="addTask()">
+      <label for="user-id">Email:</label>
+      <input type="text" id="user-id" [(ngModel)]="email" name="user-id">
+
+      <label for="username">Username:</label>
+      <input type="text" id="username" [(ngModel)]="username" name="username">
+
+      <label for="login">Login:</label>
+      <input type="text" id="login" [(ngModel)]="loginTime" name="login">
+
+      <label for="task">Add Task:</label>
+      <input type="text" id="task" [(ngModel)]="task" name="task">
+
+      <div class="form-buttons">
+        <input type="submit" value="Submit">
+        <button type="button" (click)="onLogout()" class="logout-button">
+          Logout
+        </button>
+      </div>
+    </form>
+  </div>
+  </div>
+</div>
